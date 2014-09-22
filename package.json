@@ -1,17 +1,17 @@
 {
-  "name": "mean-template",
+  "name": "destinate",
   "version": "0.0.0",
-  "description": "The MEAN Template",
+  "description": "Destinate",
   "repository": {
     "type": "git",
-    "url": "https://github.com/nss-cohort-2014-06-07/mean-template"
+    "url": "https://github.com/marksupalla/destinate"
   },
-  "author": "Chyld Medford <chyld.medford@gmail.com>",
+  "author": "Mark Supalla <marksupalla@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/nss-cohort-2014-06-07/mean-template/issues"
+    "url": "https://github.com/marksupalla/destinate/issues"
   },
-  "homepage": "https://github.com/nss-cohort-2014-06-07/mean-template",
+  "homepage": "https://github.com/marksupalla/destinate",
   "dependencies": {
     "async": "^0.9.0",
     "bcrypt": "^0.8.0",
