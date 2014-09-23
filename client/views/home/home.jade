@@ -1,4 +1,8 @@
-h3 The MEAN Stack
-ul(ng-show='mean')
-  li(ng-repeat='technology in mean') {{technology}}
-
+.row
+  .col-xs-10
+    form(role='form', name='destinationForm')
+      .form-group
+        input.form-control#destination(placeholder='example: Paris, France', ng-model='destination', )
+  .col-xs-2
+      .form-group
+        button.btn.btn-primary(type='submit') Add Destination
