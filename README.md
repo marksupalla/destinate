@@ -21,11 +21,11 @@ Model 2
 
 ### Database
 ```
-Collecion 1
+Destinations
 ```
 
 ```
-Collection 2
+Trips
 ```
 
 ### Features
@@ -38,9 +38,6 @@ Collection 2
 $ npm install
 $ npm test
 ```
-
-### Contributors
-- [Chyld Medford](https://github.com/chyld)
 
 ### License
 [MIT](LICENSE)
