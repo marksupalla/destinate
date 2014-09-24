@@ -1,0 +1,14 @@
+.row
+  .col-xs-4
+    form(role='form', novalidate, name='destinationsForm')
+      .form-group
+        span.fa.fa-map-marker &nbsp
+        label Add a Location..
+        input.form-control(type='text', name='location', ng-model='destination.location', required, autofocus, placeholder='example: Paris, France')
+  .col-xs-4
+      .form-group
+        label ..and a Photo &nbsp
+        span.fa.fa-photo
+        input.form-control(type='text', name='photo', ng-model='destination.photo', required, placeholder='Photo URL')
+  .col-xs-4
+          button.btn.btn-primary(type='button', ng-click='addDestination()') Destinate.

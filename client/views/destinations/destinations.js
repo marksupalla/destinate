@@ -2,12 +2,12 @@
   'use strict';
 
   angular.module('destinate')
-  .controller('destinationsCtrl', ['$scope', 'Destination', function($scope, Destination){
+  .controller('DestinationsCtrl', ['$scope', 'Destination', function($scope, Destination){
     $scope.page = 'Add A Destination:';
     $scope.destinations = [];
 
     Destination.all().then(function(res){
-      $scope.destinations = res.data.lifts;
+      $scope.destinations = res.data.destinations;
     });
 
     $scope.addDestination = function(){
