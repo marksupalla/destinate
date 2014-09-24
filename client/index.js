@@ -1,7 +1,7 @@
 (function(){
   'use strict';
 
-  angular.module('destinate', ['ngRoute', 'LocalForageModule'])
+  angular.module('destinate', ['ngRoute', 'LocalForageModule', 'msPhotoModule'])
   .config(['$routeProvider', '$httpProvider', '$localForageProvider', function($routeProvider, $httpProvider, $localForageProvider){
     $routeProvider
     .when('/', {templateUrl:'/views/home/home.html', controller:'HomeCtrl'})

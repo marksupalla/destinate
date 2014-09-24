@@ -1,8 +1,7 @@
 .row
   .col-xs-10
-    form(role='form', name='destinationForm')
-      .form-group
-        input.form-control#destination(placeholder='example: Paris, France', ng-model='destination', )
+        input.form-control#destination(type='text', placeholder='example: Paris, France', ng-model='place', )
   .col-xs-2
-      .form-group
-        button.btn.btn-primary(type='submit') Add Destination
+        button.btn.btn-primary(ng-click='addDestination()') Add Destination
+
+div(ms-photo, ng-repeat='place in places', title='{{place}}', remove='delDestination($index)')
